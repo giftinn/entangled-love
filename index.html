@@ -56,7 +56,7 @@ font-family:'DM Serif Display',serif;
 margin:0 0 14px;
 }
 
-p{font-size:15px;line-height:1.7;opacity:.85}
+p{font-size:18px;line-height:1.7;opacity:.85}
 
 button{
 padding:12px 26px;
@@ -237,8 +237,8 @@ pointer-events:none;
 
 <!-- welcome -->
 <section class="card active">
-<h1>Special gift</h1>
-<p>For someone i love the most. <br>But you have to unlock it.</p>
+<h1>Haii kakak sayang</h1>
+<p>This is for you.<br>But you have to unlock it</p>
 <button onclick="next()">Unlock</button>
 </section>
 
@@ -279,7 +279,7 @@ Points: <span id="score">0</span> / 3
 <!-- final -->
 <section class="card">
 
-<h1>Another Month of Us</h1>
+<h1>I am always here for you</h1>
 
 <div class="lovebox">
 <div class="timer-title">TIME WITH YOU</div>
@@ -333,7 +333,7 @@ if(page===2)loadQuestion();
 ================================================= */
 
 let pinInput = '';
-const correctPin = '1402';
+const correctPin = '0626';
 const pinDisplay = document.getElementById("pin");
 
 function renderDots(){
@@ -381,9 +381,9 @@ function checkPin(){
 ================================================= */
 
 const questions=[
-{q:"When did we first meet? ", options:["14 February"," 24 January","22 January"],correct:2},
-{q:"Who loves the most?", options:["You","100% me","Both"],correct:2},
-{q:"What’s on my mind most of the time?", options:["Anime","Someone else","You (my pretty girlfriend"],correct:2}
+{q:"kapan kita kenall? ", options:["januari","februari","april"],correct:1},
+{q:"first time kamu vn", options:["15 feb","14 feb","14 mar"],correct:1},
+{q:"who loves harder?", options:["you","me","both"],correct:2}
 ];
 
 let currentQ = 0;
@@ -448,7 +448,7 @@ function checkAnswer(i,btn){
 
 function startTimer(){
 
-    const start = new Date("2026-01-22T00:00:00");
+    const start = new Date("2026-02-06T00:00:00");
 
     setInterval(()=>{
 
@@ -482,11 +482,8 @@ function revealMemory(el){
     `;
 
     const text = `
-      Even all the beautiful words in the world still wouldn’t be enough to explain how much you mean to me. Yet here you are, right in my life, and somehow that alone says everything. I admire the little things about you—the way you care about me, the way you talk, and how your eyes light up when you’re excited, especially when it’s with me. 
-
-      With you, I’ve found a kind of peace I didn’t even know I was looking for. It’s a kind of comfort I didn’t know I needed until I found it in you. It’s something I can’t find anywhere else, no matter how hard I try. Every moment with you, no matter how small, feels important and meaningful.
-      
-      Thank you for being here with me, for every moment, every word, and every feeling we’ve shared. Happy 2nd mensiversary, sayangku. I’m so grateful for you, today and always. ❤️  
+      hey kakak. . .aku tau akhir-akhir ini kamu lagi capek banget, mungkin bukan cuma fisik tapi juga hati dan pikiran kamu. i can feel it, even from the way you talk, or sometimes dari cara kamu jadi lebih diem. and it’s okay, kamu ga harus selalu keliatan baik baik aja kok. aku cuma mau kamu tau, kamu ga sendirian. even when everything feels heavy and messy, i’m still here. . .right here, for you. kamu boleh istirahat, boleh nangis, boleh cerita, atau bahkan kalau kamu cuma mau diem aja juga gapapa. i’ll stay. i know kamu udah berusaha sejauh ini, dan aku bangga banget sama kamu, more than you realize. sometimes you’re too hard on yourself, padahal kamu udah doing your best. gapapa kalau nilai kamu kecil, yang penting kamu udah berusaha, and honestly. . .kamu udah keren banget kok. kalau hari ini terasa berat, kita jalanin pelan-pelan ya. . .one step at a time. ga perlu buru-buru, ga perlu jadi yang terbaik aku bakal temenin kamu, in every mood, in every phase. i love you, selalu. even on your worst days, bahkan saat kamu ngerasa ga baik-baik aja. kamu tetap orang yang sama yang aku sayang.
+      so please take your time, breathe, and remember. . .you have me 🤍
       `;
 
     const paragraphs = text.split("\n\n");
